@@ -15,43 +15,103 @@
 
 ---
 
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
-
 ## 🎯 About Me
+
+<table>
+<tr>
+<td width="55%" valign="top">
+
+### 👨‍💻 Who Am I?
+
+Hey there! I'm **Achraf Abiba**, a passionate **Cybersecurity Engineering student** at **ESI (École Supérieure d'Informatique)** in Morocco 🇲🇦. I specialize in **Information Systems Security & Cyberdefense**, with a deep focus on building secure, resilient systems.
+
+As **Head of Cybersecurity at CODE-ESI Club**, I lead a team of security enthusiasts, organizing workshops, developing CTF challenges, and fostering a culture of defensive security. My journey has taken me from security assessments at major enterprises to designing challenges for international CTF competitions.
 
 ```python
 class CybersecurityEngineer:
     def __init__(self):
         self.name = "Achraf Abiba"
-        self.role = "Information Systems Security Engineering Student"
-        self.university = "ESI (École Supérieure d'Informatique)"
+        self.current_role = "Head of Cybersecurity @ CODE-ESI"
+        self.education = "Security Engineering @ ESI"
         self.location = "Rabat, Morocco 🇲🇦"
-        self.focus = ["Ethical Hacking", "Network Defense", "CTF Design"]
 
-    def current_work(self):
+    def expertise(self):
         return {
-            "position": "Head of Cybersecurity @ CODE-ESI Club",
-            "projects": ["secVlog", "Blockchain Voting", "Hyprland Configs"],
-            "learning": ["Advanced Pentesting", "Blockchain Security", "Cloud Security"],
-            "competitions": ["Cyber Warfare Odyssey", "Season of Secrets"]
+            "security": ["Penetration Testing", "Network Defense",
+                        "Security Policy Development", "Vulnerability Assessment"],
+            "blockchain": ["Smart Contracts", "DApp Development",
+                          "Ethereum", "Solidity"],
+            "systems": ["Linux Administration", "Cloud Security",
+                       "Containerization", "Infrastructure Hardening"],
+            "other": ["CTF Design", "Security Research", "Teaching"]
         }
 
-    def say_hi(self):
-        print("Thanks for dropping by! Let's build secure systems together!")
+    def current_focus(self):
+        return [
+            "🔐 Advanced Penetration Testing & Red Teaming",
+            "⛓️ Blockchain Security & Smart Contract Auditing",
+            "☁️ Cloud Security Architecture (AWS)",
+            "🚩 CTF Challenge Creation & Security Education"
+        ]
+
+    def achievements(self):
+        return {
+            "internships": ["OCP Group", "FromTelecom"],
+            "ctf_designer": ["Cyber Warfare Odyssey", "Season of Secrets"],
+            "certifications": ["AWS Cloud Practitioner", "Cisco Ethical Hacker"],
+            "leadership": "Head of Cybersecurity @ CODE-ESI Club"
+        }
 
 me = CybersecurityEngineer()
-me.say_hi()
+print(f"👋 {me.name} here! Building secure systems, one line of code at a time.")
 ```
 
-<br clear="right"/>
+</td>
+<td width="45%" valign="top">
 
-### 🚀 Quick Highlights
+### 🚀 What I Do
 
-- 🔐 **Security Intern** at **OCP Group** & **FromTelecom** - Conducted enterprise security assessments & developed NIST CSF 2.0 aligned policies
-- 🏆 **CTF Challenge Designer** for international competitions reaching global audience
-- 🎓 **AWS Certified Cloud Practitioner** & **Cisco Ethical Hacker**
-- 💻 Passionate about **defensive security**, **blockchain technology**, and **Linux customization**
-- 🎯 Leading **CODE-ESI** cybersecurity initiatives with hands-on labs and training
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+#### 🔐 Security & Defense
+- **Penetration Testing**: Network security assessments, vulnerability analysis
+- **Policy Development**: NIST CSF 2.0 & ISO 27001 compliance frameworks
+- **CTF Design**: Creating educational security challenges for global competitions
+- **Security Research**: Exploring cutting-edge defensive techniques
+
+#### ⛓️ Blockchain Development
+- **Smart Contracts**: Solidity development for decentralized applications
+- **DApp Architecture**: Building secure blockchain-based systems
+- **Security Auditing**: Analyzing smart contract vulnerabilities
+
+#### 🐧 Linux & DevOps
+- **System Hardening**: Advanced Arch Linux configurations (Hyprland enthusiast!)
+- **Infrastructure**: Docker, Kubernetes, LDAP, virtualization
+- **Automation**: Shell scripting, workflow optimization
+
+#### 🎓 Teaching & Mentorship
+- Leading **CODE-ESI** cybersecurity initiatives
+- Organizing hands-on security workshops
+- Mentoring students in ethical hacking & secure coding
+- Developing practical labs for defensive security
+
+---
+
+### 💼 Quick Stats
+
+```yaml
+🎯 Current Position: Head of Cybersecurity @ CODE-ESI Club
+📚 Education: Security Engineering Student @ ESI (2023-2026)
+🌍 Location: Rabat, Morocco
+💼 Experience: OCP Group | FromTelecom
+🏆 CTF Designer: International Competitions
+🎓 Certifications: AWS | Cisco Ethical Hacker
+🔍 Focus Areas: Pentesting | Blockchain | Cloud Security
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
